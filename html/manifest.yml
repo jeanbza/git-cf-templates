@@ -1,0 +1,4 @@
+---
+applications:
+- name: example-html-app
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
