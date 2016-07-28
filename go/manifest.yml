@@ -1,0 +1,7 @@
+---
+applications:
+- name: example-go-app
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
+  command: main
+  env:
+    GOPACKAGENAME: main
