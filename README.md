@@ -1,3 +1,3 @@
 # git-cf-templates
 
-Some templates for pushing cf apps in different languages.
+Some templates for pushing cf apps in different languages. Pull requests welcome.
