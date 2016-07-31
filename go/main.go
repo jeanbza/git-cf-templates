@@ -4,11 +4,14 @@ import (
     "net/http"
     "fmt"
     "os"
+
+    "github.com/Pallinder/go-randomdata"
 )
 
 func main() {
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-        w.Write([]byte("Hello world"))
+        sillyName := randomdata.SillyName()
+        w.Write([]byte(fmt.Sprintf("Hello %s\n", sillyName)))
     })
 
     var port string

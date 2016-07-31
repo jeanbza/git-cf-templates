@@ -1,0 +1,11 @@
+{
+	"ImportPath": "git-cf-templates/go",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Pallinder/go-randomdata",
+			"Rev": "104cc800bd6434e70cb0c3ad08c4541f4f2eb48b"
+		}
+	]
+}
